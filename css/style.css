@@ -237,7 +237,7 @@ portfolio-box img:hover{
     left: 0;
     width: 100%;
     height: 100%;
-    background: var(--bg-color-01);
+    background: var(--bg-color-01);   /* alteração de liner-gradient = transparent para cor main-color */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -269,7 +269,7 @@ portfolio-box img:hover{
 
 .portfolio-layer p{
     margin:0.2rem 0 0 0.5rem ;
-    color: var(--main-color);
+   color: var(--main-color);   /* add do color pra baixo pára alteração do hover e cor */
     font-style: italic;
     font-weight: bolder;
 }
