@@ -237,7 +237,7 @@ portfolio-box img:hover{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(transparent,var(--main-color));
+    background: var(--bg-color-01);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -269,6 +269,9 @@ portfolio-box img:hover{
 
 .portfolio-layer p{
     margin:0.2rem 0 0 0.5rem ;
+    color: var(--main-color);
+    font-style: italic;
+    font-weight: bolder;
 }
 
 .portfolio-layer a i{
